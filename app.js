@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const path = require('path');
 require('dotenv').config();
 
-const connectionString = `mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASSWORD}@${process.env.MONGODB_HOST}/${process.env.MONGODB_OPTIONS}`;
+const connectionString = 'mongodb+srv://aminetouba59:Altqlmj1qiEY9Nmh@dev-web-p7.5flpr4n.mongodb.net/?retryWrites=true&w=majority';
 const userRoutes = require('./routes/user');
 const bookRoutes = require('./routes/book')
 
